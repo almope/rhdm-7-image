@@ -16,14 +16,12 @@ envs:
   value: "7.11.0"
 - name: "PRODUCT_VERSION"
   value: "7.11.0"
-- name: "ADD_ONS_DISTRIBUTION_ZIP"
-  value: "rhdm_add_ons_distribution.zip"
 - name: "CONTROLLER_DISTRIBUTION_ZIP"
-  value: "rhdm-7.11.0-controller-ee7.zip"
+  value: "rhdm_controller_ee7.zip"
 artifacts:
-- name: "rhdm_add_ons_distribution.zip"
-  # rhdm-7.11.0.redhat-20210113-add-ons.zip
-  md5: "dd314ba6017472380d2eab043a41a3c6"
+- name: "rhdm_controller_ee7.zip"
+  # rhdm-7.11.0-controller-ee7.zip
+  md5: ""
 run:
   user: 185
   cmd:
